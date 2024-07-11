@@ -4,6 +4,9 @@ body {
     margin-bottom: 3rem;
     margin-left: 5%;
     margin-right: 5%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 
 }
 
@@ -30,10 +33,14 @@ img {
 nav ul {
     list-style: none;
     text-align: center;
+    background-color: #FEFEE3;
+    border-radius: 5rem;
 }
 
 nav li {
     display: inline-block;
+    padding: 1rem;
+    
 }
 
 section {
@@ -43,6 +50,43 @@ section {
 
 article {
     flex: 1;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    background-color: #f4f4f4;
+    border-radius: 5rem;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.banner-text h1 {
+    font-size: 2.5em; 
+    margin: 0;
+}
+
+.banner-text p {
+    font-size: 1.2em; 
+    margin: 0;
 }
 
 footer {
