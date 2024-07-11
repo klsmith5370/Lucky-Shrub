@@ -36,11 +36,6 @@ nav li {
     display: inline-block;
 }
 
-/* main {
-    display: flex;
-    flex-direction: row;
-} */
-
 section {
     display: flex;
 
