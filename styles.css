@@ -141,4 +141,10 @@ footer div {
 footer div > p {
     text-align: right;
     font-weight: bold;
+    margin-right: 2rem;
+}
+
+footer div > img {
+    width: 10%;
+    margin-right: 10rem;
 }
