@@ -7,6 +7,10 @@ body {
 
 }
 
+h1 {
+    font-size: 3rem;
+}
+
 h2 {
     font-size: 2rem;
 
@@ -38,18 +42,18 @@ nav li {
     display: inline-block;
 }
 
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
 footer {
     display: flex;
-    flex-direction: row;
-    background-color:seagreen;
-    margin-top: 5rem;
-    border-radius: 5rem;
 }
 
-footer img {
-    width: 15%;
-}
-
-footer p {
-    margin: 10rem;
+footer div {
+    flex: 1;
 }
