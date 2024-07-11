@@ -27,12 +27,6 @@ img {
 
 }
 
-/* nav {
-    background-color:seagreen;
-    border-radius: 10rem;
-   
-} */
-
 nav ul {
     list-style: none;
     text-align: center;
@@ -42,8 +36,14 @@ nav li {
     display: inline-block;
 }
 
+/* main {
+    display: flex;
+    flex-direction: row;
+} */
+
 section {
     display: flex;
+
 }
 
 article {
